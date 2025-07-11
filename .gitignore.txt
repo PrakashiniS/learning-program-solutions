@@ -1,0 +1,5 @@
+target/
+git rm -r --cached .
+git add .
+git commit -m "Removed build artifacts and updated .gitignore"
+git push origin main
