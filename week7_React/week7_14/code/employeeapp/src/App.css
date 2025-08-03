@@ -1,0 +1,32 @@
+.app-container {
+  min-height: 100vh;
+  padding: 20px;
+  transition: background-color 0.3s ease;
+}
+
+/* Light Theme */
+.app-container.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark Theme */
+.app-container.dark {
+  background-color: #222222;
+  color: #ffffff;
+}
+a.light {
+  color: white;
+  background-color: #000000;
+  padding: 2px 6px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+a.dark {
+  color: black;
+  background-color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  text-decoration: none;
+}

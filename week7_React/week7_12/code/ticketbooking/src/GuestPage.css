@@ -1,0 +1,21 @@
+.guest-container {
+  text-align: center;
+}
+
+.flight-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.flight-card {
+  background-color: #f5f5f5;
+  border-left: 5px solid #3f51b5;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: left;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}

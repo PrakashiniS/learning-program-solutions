@@ -1,0 +1,31 @@
+.players-container {
+  font-family: Arial, sans-serif;
+  background-color: #f4f8fb;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 600px;
+  margin: 30px auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.players-container h2, .players-container h3 {
+  color: #0d47a1;
+  margin-bottom: 10px;
+}
+
+.players-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.players-container li {
+  background-color: #e3f2fd;
+  padding: 8px 12px;
+  margin: 5px 0;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.players-container li:hover {
+  background-color: #bbdefb;
+}
